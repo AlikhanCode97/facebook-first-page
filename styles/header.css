@@ -149,6 +149,10 @@
   text-wrap: nowrap;
 
 }
+.cell:hover {
+  cursor: pointer;
+  background-color: rgb(213, 213, 213);
+}
 
 .cell .material-symbols-outlined{
   height: 20px;
