@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+}
+.main .center {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 32px 0px 32px;
+}
+
+.main .side {
+  flex: 1;
+  padding: 0px 32px 0px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.center .create-story , .create-post,.center .posts,
+.side{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  margin: 10px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+.create-story img {
+  height: 24px;
+  width: 24px;
+  background-color: rgb(235, 245, 255);
+  padding: 8px 8px 8px 8px;
+  border-radius: 20px;
+}
+.create-story .create-story-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.create-story-text .title {
+  font-weight: 500;
+}
+.create-story-text .description {
+  color: rgb(111, 110, 110);
+}
